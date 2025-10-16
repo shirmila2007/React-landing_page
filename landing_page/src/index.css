@@ -1,0 +1,77 @@
+.nav ul{
+  display: flex;
+  gap: 30px;
+  background-color: rgb(128, 167, 233);
+  padding: 10px;
+  width: 1500px;
+  height: 30px;
+  text-align: left;
+  font-size: 25px;
+ 
+}
+.nav ul Link{
+  display: inline;
+  font-size: 23px;
+  background-color: rgb(81, 146, 216);
+  padding: 5px;
+  border-radius: 12px;
+  text-align: left;
+  color: black;
+}
+.footer{
+  text-align: center;
+  background-color:rgb(128, 167, 233);
+}
+.home{
+  text-align: center;
+  font-size: 30px;
+  background-image: url("https://i.pinimg.com/736x/0d/d5/2d/0dd52d8945b16e6647bc74d4bc8aecb4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat  ;
+  width: 1500px;
+  height: 700px;
+
+}
+.cards{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 5px; 
+   font-size: 25px;
+   text-align: center;
+
+   
+}
+.card img{
+  width: 400px;
+  height: 350px;
+  border-radius: 12px;
+  
+  
+}
+.card{
+  background-color: cornflowerblue;
+  height: 400px;
+  width: 400px;
+  border-radius: 12px;
+}
+.card p{
+  margin-top: 12px;
+}
+.buttons{
+  display: inline;
+  text-align: center;
+  margin: 20px 0;
+  gap: 10px;
+  padding: 10px;
+
+
+}
+.buttons button{
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: darkgray;
+
+  
+}
